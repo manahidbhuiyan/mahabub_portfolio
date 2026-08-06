@@ -114,7 +114,7 @@ export function Navbar() {
             </Button>
             <Button
               nativeButton={false}
-              render={<a href="/#contact" />}
+              render={<Link href="/#contact" />}
               variant="accent"
               size="sm"
               className="transition-transform hover:-translate-y-0.5"

@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -159,7 +160,7 @@ export function MobileMenu({ open, activeHref, onClose }: MobileMenuProps) {
               </Button>
               <Button
                 nativeButton={false}
-                render={<a href="/#contact" onClick={onClose} />}
+                render={<Link href="/#contact" onClick={onClose} />}
                 variant="accent"
                 size="lg"
                 className="w-full"
