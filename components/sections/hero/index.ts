@@ -1,0 +1,9 @@
+export { Hero } from "@/components/sections/hero/Hero";
+export { HeroBackground } from "@/components/sections/hero/HeroBackground";
+export { HeroBadge } from "@/components/sections/hero/HeroBadge";
+export { HeroButtons } from "@/components/sections/hero/HeroButtons";
+export { HeroContent } from "@/components/sections/hero/HeroContent";
+export { HeroRole } from "@/components/sections/hero/HeroRole";
+export { HeroSocials } from "@/components/sections/hero/HeroSocials";
+export { HeroVisual } from "@/components/sections/hero/HeroVisual";
+export { heroContent } from "@/components/sections/hero/content";

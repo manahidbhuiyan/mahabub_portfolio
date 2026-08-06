@@ -1,0 +1,47 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+import { skillsContent } from "@/components/sections/skills/content";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
+
+const ease = [0.22, 1, 0.36, 1] as const;
+
+export function SkillsHeader() {
+  const prefersReducedMotion = useReducedMotion();
+
+  return (
+    <header className="mx-auto max-w-3xl text-center">
+      <motion.p
+        className="text-label text-accent"
+        initial={prefersReducedMotion ? false : { opacity: 0, y: 12, filter: "blur(6px)" }}
+        whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+        viewport={{ once: true, amount: 0.6 }}
+        transition={{ duration: 0.5, ease }}
+      >
+        {skillsContent.eyebrow}
+      </motion.p>
+
+      <motion.h2
+        id="skills-heading"
+        className="text-h1 text-text-primary mt-3 text-balance"
+        initial={prefersReducedMotion ? false : { opacity: 0, y: 16, filter: "blur(8px)" }}
+        whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.06, duration: 0.55, ease }}
+      >
+        {skillsContent.title}
+      </motion.h2>
+
+      <motion.p
+        className="text-body-lg text-text-secondary mx-auto mt-4 max-w-2xl"
+        initial={prefersReducedMotion ? false : { opacity: 0, y: 12 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ delay: 0.12, duration: 0.5, ease }}
+      >
+        {skillsContent.description}
+      </motion.p>
+    </header>
+  );
+}
