@@ -1,6 +1,7 @@
 "use client";
 
 import { Download, Menu } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { motion } from "framer-motion";
@@ -56,9 +57,17 @@ export function Navbar() {
         <Container className="flex h-16 items-center justify-between gap-4 lg:h-[4.25rem]">
           <Link
             href="/#home"
-            className="font-display text-text-primary hover:text-accent focus-visible:ring-ring rounded-md text-lg font-semibold tracking-tight transition-colors focus-visible:ring-2 focus-visible:outline-none"
+            className="font-display text-text-primary hover:text-accent focus-visible:ring-ring inline-flex items-center gap-2.5 rounded-md text-lg font-semibold tracking-tight transition-colors focus-visible:ring-2 focus-visible:outline-none"
             aria-label={`${siteConfig.author.name} — home`}
           >
+            <Image
+              src="/images/logo.png"
+              alt=""
+              width={36}
+              height={34}
+              className="size-8 object-contain"
+              priority
+            />
             {siteConfig.author.name.split(" ")[0]}
             <span className="text-accent">.</span>
           </Link>
