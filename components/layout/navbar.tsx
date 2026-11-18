@@ -61,15 +61,13 @@ export function Navbar() {
             aria-label={`${siteConfig.author.name} — home`}
           >
             <Image
-              src="/images/logo.png"
+              src="/images/mahabub-star.svg"
               alt=""
-              width={36}
-              height={34}
-              className="size-8 object-contain"
+              width={56}
+              height={54}
+              className="size-11 object-contain sm:size-12"
               priority
             />
-            {siteConfig.author.name.split(" ")[0]}
-            <span className="text-accent">.</span>
           </Link>
 
           <nav

@@ -21,7 +21,7 @@ export const siteConfig = {
   hero: {
     greeting: "Hello, my name is",
     headline: "I craft fast, thoughtful digital experiences.",
-    bio: "Full-stack developer with 3+ years building polished web products — from storefronts and booking platforms to internal tools — with a front-end focus and end-to-end delivery.",
+    bio: "Full-stack developer with 4+ years building polished web products — from storefronts and booking platforms to internal tools — with a front-end focus and end-to-end delivery.",
   },
   about: {
     eyebrow: "About",

@@ -22,7 +22,7 @@ export function About() {
     >
       <Container size="xl">
         <div className="grid items-start gap-12 lg:grid-cols-12 lg:gap-14 xl:gap-16">
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 lg:self-stretch">
             <AboutImage />
           </div>
           <div className="lg:col-span-7">

@@ -19,122 +19,7 @@ function productGallery(cover: string, title: string): ProjectGalleryItem[] {
  * Add a new entry here to surface it on the homepage and /projects/[slug].
  */
 export const projects: PortfolioProject[] = [
-  {
-    id: "amana-tour",
-    slug: "amana-tours",
-    title: "Amana Tours & Travel",
-    summary:
-      "Travel booking platform for Hajj, Umrah, and custom tour packages.",
-    description:
-      "A production travel product that turns package discovery into confident booking — with clear itineraries, flexible plans, and a stack built for speed and maintainability.",
-    category: "Full Stack",
-    status: "Live",
-    year: 2024,
-    featured: true,
-    coverImage: "/images/projects/amanatours.png",
-    gallery: productGallery("/images/projects/amanatours.png", "Amana Tours & Travel"),
-    liveUrl: "https://amanatoursandtravels.com/",
-    stack: ["Next.js", "TypeScript", "Tailwind", "Node.js", "Express", "MongoDB"],
-    filters: ["all", "full-stack", "frontend", "backend", "react", "nextjs", "nodejs"],
-    trust: ["Production Ready", "Responsive", "Scalable Architecture"],
-    stats: [
-      { label: "Focus", value: "Booking UX" },
-      { label: "Stack", value: "Next.js" },
-      { label: "Type", value: "Full Stack" },
-    ],
-    meta: {
-      role: "Full Stack Developer",
-      industry: "Travel & Hospitality",
-      teamSize: "Cross-functional product team",
-      duration: "Ongoing product delivery",
-      platform: "Web · Responsive",
-    },
-    caseStudy: {
-      overview:
-        "Amana Tours needed a digital product that could earn trust quickly — especially for high-intent travel decisions like Hajj, Umrah, and custom packages.",
-      problem:
-        "Package details were dense and unevenly presented, so visitors struggled to compare options and move toward enquiry with confidence.",
-      difficulty:
-        "The hard part was not rendering pages — it was compressing complex travel information into a calm, scannable experience without losing credibility or SEO reach.",
-      approach:
-        "I shaped a Next.js + TypeScript product surface with structured package presentation, enquiry-oriented CTAs, and Express/MongoDB services behind the UI.",
-      approachWhy:
-        "Next.js gave us SEO-friendly delivery and maintainable page composition, while a typed full-stack boundary reduced regressions as content and features expanded.",
-      outcome:
-        "The result is a clearer booking-oriented experience that presents packages as products — easier to scan, easier to trust, and easier to evolve.",
-      responsibilities: [
-        "Owned customer-facing UI architecture and package storytelling",
-        "Implemented API-backed content and enquiry pathways",
-        "Collaborated on launch priorities and iterative polish",
-      ],
-      features: [
-        "Structured discovery for Hajj, Umrah, and tours",
-        "Responsive decision-oriented package pages",
-        "Clear service communication and enquiry CTAs",
-        "Maintainable content structure for ongoing updates",
-      ],
-      challenges: [
-        "Communicating dense itineraries without overwhelming users",
-        "Keeping premium visuals fast on mobile networks",
-        "Balancing marketing narrative with practical booking clarity",
-      ],
-      decisions: [
-        {
-          decision: "Next.js App-style composition",
-          reason: "Needed SEO-ready pages and reusable section patterns for content growth.",
-          tradeoff: "Slightly more framework structure than a static marketing site.",
-        },
-        {
-          decision: "TypeScript across the product UI",
-          reason: "Package and enquiry flows change often — type safety reduces silent breakage.",
-          tradeoff: "Upfront typing cost for faster long-term iteration.",
-        },
-        {
-          decision: "Separate Express + MongoDB services",
-          reason: "Keeps content/ops concerns out of the presentation layer.",
-          tradeoff: "Requires intentional API contracts and deployment coordination.",
-        },
-      ],
-      architecture: [
-        "Reusable page sections for package storytelling",
-        "API-driven content and enquiry pathways",
-        "MongoDB for flexible package and service data",
-      ],
-      architectureFlow: ["Client", "Next.js", "Express API", "MongoDB"],
-      performance: [
-        "Image-conscious layouts for large travel visuals",
-        "Responsive-first structure to protect mobile experience",
-        "Lean component patterns for snappy interaction",
-      ],
-      lessons: [
-        "High-intent products need clarity more than decoration",
-        "Type safety pays off quickly in content-heavy travel flows",
-        "Reusable sections make marketing updates safer",
-      ],
-      impact: [
-        {
-          title: "User experience",
-          description:
-            "Visitors can compare packages with less friction and a clearer path to enquiry.",
-        },
-        {
-          title: "Maintainability",
-          description:
-            "Section-based UI and typed boundaries make content and feature updates safer.",
-        },
-        {
-          title: "Scalability",
-          description:
-            "The stack supports expanding package types and services without rewriting the shell.",
-        },
-        {
-          title: "Business value",
-          description:
-            "A more trustworthy digital presence for high-consideration travel decisions.",
-        },
-      ],
-    },
-  },
+  
   {
     id: "ubaky",
     slug: "ubaky",
@@ -148,7 +33,7 @@ export const projects: PortfolioProject[] = [
     featured: true,
     coverImage: "/images/projects/ubaky.png",
     gallery: productGallery("/images/projects/ubaky.png", "Ubaky"),
-    liveUrl: "https://ubaky.com/home",
+    liveUrl: "https://ubaky.com",
     stack: ["React", "TypeScript", "Redux Toolkit", "Ant Design", "Node.js"],
     filters: ["all", "full-stack", "frontend", "react", "nodejs", "dashboard"],
     trust: ["Production Ready", "Responsive", "Performance Focused"],
@@ -260,7 +145,7 @@ export const projects: PortfolioProject[] = [
     status: "Live",
     year: 2023,
     featured: true,
-    coverImage: "/images/projects/bigBazar.png",
+    coverImage: "/images/projects/bigBazar2.png",
     gallery: productGallery("/images/projects/bigBazar.png", "Amana Big Bazar"),
     liveUrl: "https://amanabigbazar.com/",
     stack: ["Vue", "JavaScript", "Node.js", "Express", "Bootstrap", "SCSS"],
@@ -473,6 +358,122 @@ export const projects: PortfolioProject[] = [
           title: "Business value",
           description:
             "Better operational clarity reduces friction in daily retail execution.",
+        },
+      ],
+    },
+  },
+  {
+    id: "amana-tour",
+    slug: "amana-tours",
+    title: "Amana Tours & Travel",
+    summary:
+      "Travel booking platform for Hajj, Umrah, and custom tour packages.",
+    description:
+      "A production travel product that turns package discovery into confident booking — with clear itineraries, flexible plans, and a stack built for speed and maintainability.",
+    category: "Full Stack",
+    status: "Live",
+    year: 2024,
+    featured: true,
+    coverImage: "/images/projects/amanatours.png",
+    gallery: productGallery("/images/projects/amanatours.png", "Amana Tours & Travel"),
+    liveUrl: "https://amanatoursandtravels.com/",
+    stack: ["Next.js", "TypeScript", "Tailwind", "Node.js", "Express", "MongoDB"],
+    filters: ["all", "full-stack", "frontend", "backend", "react", "nextjs", "nodejs"],
+    trust: ["Production Ready", "Responsive", "Scalable Architecture"],
+    stats: [
+      { label: "Focus", value: "Booking UX" },
+      { label: "Stack", value: "Next.js" },
+      { label: "Type", value: "Full Stack" },
+    ],
+    meta: {
+      role: "Full Stack Developer",
+      industry: "Travel & Hospitality",
+      teamSize: "Cross-functional product team",
+      duration: "Ongoing product delivery",
+      platform: "Web · Responsive",
+    },
+    caseStudy: {
+      overview:
+        "Amana Tours needed a digital product that could earn trust quickly — especially for high-intent travel decisions like Hajj, Umrah, and custom packages.",
+      problem:
+        "Package details were dense and unevenly presented, so visitors struggled to compare options and move toward enquiry with confidence.",
+      difficulty:
+        "The hard part was not rendering pages — it was compressing complex travel information into a calm, scannable experience without losing credibility or SEO reach.",
+      approach:
+        "I shaped a Next.js + TypeScript product surface with structured package presentation, enquiry-oriented CTAs, and Express/MongoDB services behind the UI.",
+      approachWhy:
+        "Next.js gave us SEO-friendly delivery and maintainable page composition, while a typed full-stack boundary reduced regressions as content and features expanded.",
+      outcome:
+        "The result is a clearer booking-oriented experience that presents packages as products — easier to scan, easier to trust, and easier to evolve.",
+      responsibilities: [
+        "Owned customer-facing UI architecture and package storytelling",
+        "Implemented API-backed content and enquiry pathways",
+        "Collaborated on launch priorities and iterative polish",
+      ],
+      features: [
+        "Structured discovery for Hajj, Umrah, and tours",
+        "Responsive decision-oriented package pages",
+        "Clear service communication and enquiry CTAs",
+        "Maintainable content structure for ongoing updates",
+      ],
+      challenges: [
+        "Communicating dense itineraries without overwhelming users",
+        "Keeping premium visuals fast on mobile networks",
+        "Balancing marketing narrative with practical booking clarity",
+      ],
+      decisions: [
+        {
+          decision: "Next.js App-style composition",
+          reason: "Needed SEO-ready pages and reusable section patterns for content growth.",
+          tradeoff: "Slightly more framework structure than a static marketing site.",
+        },
+        {
+          decision: "TypeScript across the product UI",
+          reason: "Package and enquiry flows change often — type safety reduces silent breakage.",
+          tradeoff: "Upfront typing cost for faster long-term iteration.",
+        },
+        {
+          decision: "Separate Express + MongoDB services",
+          reason: "Keeps content/ops concerns out of the presentation layer.",
+          tradeoff: "Requires intentional API contracts and deployment coordination.",
+        },
+      ],
+      architecture: [
+        "Reusable page sections for package storytelling",
+        "API-driven content and enquiry pathways",
+        "MongoDB for flexible package and service data",
+      ],
+      architectureFlow: ["Client", "Next.js", "Express API", "MongoDB"],
+      performance: [
+        "Image-conscious layouts for large travel visuals",
+        "Responsive-first structure to protect mobile experience",
+        "Lean component patterns for snappy interaction",
+      ],
+      lessons: [
+        "High-intent products need clarity more than decoration",
+        "Type safety pays off quickly in content-heavy travel flows",
+        "Reusable sections make marketing updates safer",
+      ],
+      impact: [
+        {
+          title: "User experience",
+          description:
+            "Visitors can compare packages with less friction and a clearer path to enquiry.",
+        },
+        {
+          title: "Maintainability",
+          description:
+            "Section-based UI and typed boundaries make content and feature updates safer.",
+        },
+        {
+          title: "Scalability",
+          description:
+            "The stack supports expanding package types and services without rewriting the shell.",
+        },
+        {
+          title: "Business value",
+          description:
+            "A more trustworthy digital presence for high-consideration travel decisions.",
         },
       ],
     },

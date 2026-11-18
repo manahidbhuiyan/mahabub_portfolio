@@ -4,6 +4,7 @@ export const heroContent = {
   name: "Mahabub Alam",
   roles: [
     "Full Stack Software Engineer",
+    "Vue.js Developer",
     "React & Next.js Developer",
     "Node.js Backend Engineer",
     "Building Production Web Products",
@@ -22,9 +23,9 @@ export const heroContent = {
     name: "Mahabub Alam",
     role: "Full Stack Software Engineer",
     location: "Dhaka, Bangladesh",
-    image: "/images/profile.jpg",
+    image: "/images/personal/pic3.png",
     imageAlt: "Professional portrait of Mahabub Alam, Full Stack Software Engineer",
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "MongoDB"],
+    technologies: ["React", "Vue", "Next.js", "TypeScript", "Node.js", "MongoDB"],
   },
   socials: [
     {

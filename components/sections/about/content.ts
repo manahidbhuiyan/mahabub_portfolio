@@ -4,11 +4,11 @@ export const aboutContent = {
   introduction:
     "I'm Mahabub — a full-stack engineer who cares about real users, clean systems, and shipping work teams can trust.",
   image: {
-    src: "/images/profile.jpg",
+    src: "/images/personal/pic4.png",
     alt: "Portrait of Mahabub Alam",
     role: "Full Stack Software Engineer",
     location: "Dhaka, Bangladesh",
-    experience: "3+ Years",
+    experience: "4+ Years",
   },
   story: [
     {
@@ -53,7 +53,7 @@ export const aboutContent = {
       id: "experience",
       icon: "briefcase" as const,
       title: "Experience",
-      value: "3+ Years",
+      value: "4+ Years",
       description: "Production delivery",
     },
     {

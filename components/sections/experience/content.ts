@@ -42,13 +42,13 @@ export const experienceContent = {
         "Git",
       ],
       responsibilities: [
-        "Ship responsive apps for customers and internal teams",
+        // "Ship responsive apps for customers and internal teams",
         "Build reusable UI shared across products",
         "Design and maintain REST APIs",
-        "Integrate services into production workflows",
-        "Partner with product, design, and engineering",
+        // "Integrate services into production workflows",
+        // "Partner with product, design, and engineering",
         "Improve performance and reliability",
-        "Debug production issues with clear habits",
+        // "Debug production issues with clear habits",
         "Keep growing codebases maintainable",
       ],
       contributions: [
@@ -86,8 +86,8 @@ export const experienceContent = {
       ],
       responsibilities: [
         "Build and iterate production web features",
-        "Adapt interfaces for mobile screen sizes",
-        "Support backend development and troubleshooting",
+        // "Adapt interfaces for mobile screen sizes",
+        // "Support backend development and troubleshooting",
         "Work with designers, engineers, and PMs",
         "Join debugging, testing, and deployment",
         "Improve UI consistency across breakpoints",
